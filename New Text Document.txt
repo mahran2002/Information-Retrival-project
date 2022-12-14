@@ -1,0 +1,18 @@
+# settings that you use for count vectorizer will go here
+
+        #
+        # tfidf_vectorizer = TfidfVectorizer(use_idf=True)
+        #
+        # # just send in all your docs here
+        # tfidf_vectorizer_vectors = tfidf_vectorizer.fit_transform(vector_corpus)
+        # # get the first vector out (for the first document)
+        # first_vector_tfidfvectorizer = tfidf_vectorizer_vectors[0]
+        #
+        # # place tf-idf values in a pandas data frame
+        # import pandas as pd
+        # df = pd.DataFrame(first_vector_tfidfvectorizer.T.todense(), index=tfidf_vectorizer.get_feature_names_out(),
+        #                   columns=["tfidf"])
+        #print(df)
+        import pandas as pd
+
+print(pd.DataFrame())
